@@ -1,0 +1,86 @@
+.loginBack{
+  width: 100%;
+  height: 100vh;
+  background: url(../img/loginBackImg.png);
+  background-size: cover;
+}
+
+.flex{
+  display: flex;
+}
+
+.loginBox{
+  margin:auto;
+  padding:35px 40px;
+  width: 390px;
+  height: 420px;
+  background-color: #fff;
+  box-shadow: 0 2px 14px 0 rgba(234, 234, 234, 0.5);
+  border-radius: 10px;
+}
+
+.alignCon{
+  align-items: center;
+}
+
+.loginWord{
+  color: #fec31a;
+  font-size: 20px;
+  margin-left: 18px;
+}
+
+.textTop{
+  margin-top: 35px
+}
+
+.btn-default{
+  background: #fec31a;
+  border-radius: 25px;
+  border-color: #ffc82b;
+  padding:12px 0;
+  font-size: 16px;
+  color: #fff;
+}
+
+.btn-default:hover{
+  background: #ffcf20;
+  color: #fff;
+  border-color: #ffc82b;
+}
+
+.loginColor{
+  margin-top: 5px;
+}
+.loginColor a{
+  text-decoration: none;
+  color: #fec31a;
+}
+
+.loginColor a:hover{
+  color: #ffcf20;
+}
+
+.wordSpace{
+  margin-left: 8px;
+  font-size: 12px;
+}
+
+.flexWord{
+  justify-content: flex-end;
+}
+
+
+.goSign{
+  margin-top: 5px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.goSign a{
+  text-decoration: none;
+  color: #fec31a;
+}
+
+.goSign a:hover{
+  color:#ffcf20;
+}
